@@ -59,7 +59,7 @@ Follow these steps to set up and run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/FUTURE_ML_03
+git clone https://github.com/uctheinevitable/FUTURE_ML_03
 cd customer-support-chatbot
 ```
 
@@ -119,6 +119,8 @@ The application operates with a simple yet effective architecture:
 2. **Backend Communication:** When a user sends a message, Streamlit calls the `detect_intent_texts` function in `dialogflow_utils.py`.
 3. **NLU (Dialogflow):** This function sends the user's text to the Dialogflow API, which processes the language, matches it to the most appropriate **intent**, and extracts any relevant **entities** (like order numbers or product names).
 4. **Response Generation:** Dialogflow returns the pre-defined fulfillment text for that intent, which is then displayed in the Streamlit UI as the bot's response.
+<img width="1777" height="805" alt="Screenshot 2025-07-29 152638" src="https://github.com/user-attachments/assets/8212ac18-5557-4a18-a44d-8f15f96bb878" />
+<img width="1808" height="483" alt="Screenshot 2025-07-29 152823" src="https://github.com/user-attachments/assets/e8f9b8b0-5316-4624-9b41-9e679acae3b1" />
 
 ## 💡 Future Improvements
 
